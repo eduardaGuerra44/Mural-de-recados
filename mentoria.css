@@ -14,7 +14,7 @@ body{
 main{
     margin: 95px;
     height: 80%;
-    background-color: #4e733d;
+    background-color: #270028;
     box-shadow: 20px 20px 15px 10px rgba(32, 31, 29, 0.952);
     border-style: solid;
     border-radius: 10px;
@@ -34,7 +34,7 @@ ul{
 ul li a{
 text-decoration: none;
 color: #000;
-background: #f28705;
+background: #eddc11;
 display: block;
 height: 190px;
 width: 160px;
@@ -50,6 +50,7 @@ ul li{
 }
 
 ul li h2{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 145%;
     font-weight: bold;
     padding-bottom: 7px;
@@ -72,14 +73,14 @@ ul li:nth-child(even) a{
     transform: rotate(4deg);
     position: relative;
     top:5px;
-    background: rgb(238, 238, 235);
+    background: #eddc11;
 
 }
 ul li:nth-child(3n) a{
     transform: rotate(-3deg);
     position: relative;
     top:-5px; 
-    background: #f28705;
+    background: #eddc11;
 }
 
 
@@ -90,15 +91,16 @@ ul li:nth-child(5n) a{
     
 }
 ul li:nth-child(12n) a{
-    background: rgb(238, 238, 235);
+    background: #eddc11;
     
 }
 ul li:nth-child(6n) a{
-    background: rgb(238, 238, 235);
+    background:#eddc11;
     
 }
 ul li:nth-child(6n) p{
     padding-top: 2px;
+    
     
 }
     
@@ -110,9 +112,10 @@ ul li a:hover, ul li a:focus{
     z-index:5;
 }
 .titulo{
-    padding: 20px;
-    font-family:  'Road Rage', cursiva;
+    
+    padding: 10px;
+    font-family: cursive;
     font-size: 50px;
     text-align: center;
-    color: black;
+    color: rgb(243, 232, 232);
 }
